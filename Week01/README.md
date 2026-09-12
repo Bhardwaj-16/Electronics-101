@@ -160,7 +160,7 @@ You decide how strong the push is, how much flows, and what the flow passes thro
 
 You’ve learned the basics of what electricity is and how it flows. Now it’s time to get your hands *(virtually)* dirty. Before we touch any real wires, we’re going to use a tool called **Falstad Circuit Simulator**. It’s like having a digital workbench where you can safely experiment, connect parts, and see electricity come to life right inside your browser.
 
-[[Falstad Circuit Simulator]](https://cdn.hackclub.com/019cb669-b718-742c-9164-7df10fe5186e/20260303-0446-53.7206403.gif)
+![Falstad Circuit Simulator](https://cdn.hackclub.com/019cb669-b718-742c-9164-7df10fe5186e/20260303-0446-53.7206403.gif)
 
 Think of Falstad as a **sandbox for learning electronics**. You can drag and drop components like resistors, wires, and LEDs, then watch little dots race around the screen representing current flow. It’s visual, interactive, and much more exciting than staring at static diagrams.
 
