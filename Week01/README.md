@@ -160,7 +160,7 @@ You decide how strong the push is, how much flows, and what the flow passes thro
 
 You’ve learned the basics of what electricity is and how it flows. Now it’s time to get your hands *(virtually)* dirty. Before we touch any real wires, we’re going to use a tool called **Falstad Circuit Simulator**. It’s like having a digital workbench where you can safely experiment, connect parts, and see electricity come to life right inside your browser.
 
-[![Falstad Circuit Simulator]](https://cdn.hackclub.com/019cb669-b718-742c-9164-7df10fe5186e/20260303-0446-53.7206403.gif)
+[[Falstad Circuit Simulator]](https://cdn.hackclub.com/019cb669-b718-742c-9164-7df10fe5186e/20260303-0446-53.7206403.gif)
 
 Think of Falstad as a **sandbox for learning electronics**. You can drag and drop components like resistors, wires, and LEDs, then watch little dots race around the screen representing current flow. It’s visual, interactive, and much more exciting than staring at static diagrams.
 
@@ -178,7 +178,7 @@ To get started, first head on over to [falstad.com/circuit/circuitjs.html](https
 
 By default, there's a circuit on the canvas. Get rid of it by either selecting and deleting the parts, or go to **File → New Blank Circuit** for a clean slate.
 
-![Creating a blank circuit in Falstad](https://cdn.hackclub.com/019cb669-c46a-7f73-940d-cdea6e4d60b4/20260303-0453-03.4229243.gif)
+[![Creating a blank circuit in Falstad]](https://cdn.hackclub.com/019cb669-c46a-7f73-940d-cdea6e4d60b4/20260303-0453-03.4229243.gif)
 
 Now the black space is your **canvas**. Drag to pan, scroll to zoom, click to place stuff.
 
@@ -194,7 +194,7 @@ Let's drop in our first voltage source. Remember the water analogy? Voltage is l
 
 Select the **DC voltage source** symbol from the top bar (looks like a battery: long line + short line), then left-click and drag to place it on the canvas.
 
-![Adding a voltage source in Falstad](https://cdn.hackclub.com/019cb669-d125-7800-988e-b947a7904cea/20260303-0454-02.1827950.gif)
+[![Adding a voltage source in Falstad]](https://cdn.hackclub.com/019cb669-d125-7800-988e-b947a7904cea/20260303-0454-02.1827950.gif)
 
 This symbol represents a **battery/DC voltage source**.
 
@@ -209,7 +209,7 @@ Next we need to give that voltage somewhere to flow. Enter the **resistor**, whi
 
 Find the resistor symbol on the top bar (looks like a zigzag line), click it, then drag to place it near your voltage source. Now grab the **wire tool** (usually looks like a straight line) from the top bar and connect one end of the voltage source to one end of the resistor. Then connect the other ends together to make a complete loop.
 
-![Adding a resistor and completing the circuit](https://cdn.hackclub.com/019cb669-d5e6-7faa-96d1-561571c2471d/20260303-0455-05.7699513.gif)
+[![Adding a resistor and completing the circuit]](https://cdn.hackclub.com/019cb669-d5e6-7faa-96d1-561571c2471d/20260303-0455-05.7699513.gif)
 
 Hit **Run** on the right sidebar. Boom! You should see little green dots racing around your loop. Those dots represent **current flow**. The voltage source is pushing, the resistor is restricting, and you can actually *watch* the energy move.
 
@@ -219,7 +219,7 @@ You can also right-click the resistor and click on **View in New Scope** to basi
 
 Try clicking directly on the resistor. A little menu pops up where you can drag the value lower or higher. Make it smaller and watch the green dots speed up. Make it bigger and they slow down. That is resistors in action, controlling current flow in real time.
 
-![Changing resistor values in Falstad](https://cdn.hackclub.com/019cb669-e526-7ed8-8162-745195d702d6/20260303-0456-21.8603440.gif)
+[![Changing resistor values in Falstad]](https://cdn.hackclub.com/019cb669-e526-7ed8-8162-745195d702d6/20260303-0456-21.8603440.gif)
 
 #### LEDs
 
@@ -229,7 +229,7 @@ To place an LED, right-click anywhere on the canvas, go under **Outputs and Labe
 
 While we're at it, let's add a **switch** to control if the LED is on or off. Right-click → **Passive Components** → **Add Switch**.
 
-![Adding an LED and switch in Falstad](https://cdn.hackclub.com/019cb669-fb04-7f9a-ad81-b580e978c2e7/20260303-0459-18.5679297.gif)
+[![Adding an LED and switch in Falstad]](https://cdn.hackclub.com/019cb669-fb04-7f9a-ad81-b580e978c2e7/20260303-0459-18.5679297.gif)
 
 Wire it up like this:
 
@@ -241,7 +241,7 @@ Hit **Run**. Flip the switch closed and the LED should glow red! If not, the gre
 
 Right-click the LED → **Show in New Scope** (remove old graphs first by right-clicking them → **Remove Scope**). Hover over the graph: you'll see **~5V across the LED** (matches our battery) but **56A of current** and **283W of power**.
 
-![Checking LED voltage, current, and power in Falstad](https://cdn.hackclub.com/019cb66a-035f-7b64-84a0-efc9f837281b/20260303-0500-50.0372465.gif)
+[![Checking LED voltage, current, and power in Falstad]](https://cdn.hackclub.com/019cb66a-035f-7b64-84a0-efc9f837281b/20260303-0500-50.0372465.gif)
 
 <img width="1113" height="553" alt="LED scope showing voltage and current" src="https://github.com/user-attachments/assets/1d470ceb-87cf-4190-8ca4-b3aa321fe049" />
 
@@ -251,7 +251,7 @@ That's *way* too much! A desktop computer idles at 60–150W. Without resistance
 
 That's why we add a series resistor before or after the LED. Right-click → **Add Resistor**, place it between the switch and LED.
 
-![Adding a series resistor to the LED circuit](https://cdn.hackclub.com/019cb669-1476-7b31-ac61-798432102fd9/20260303-0504-04.1961304.gif)
+[![Adding a series resistor to the LED circuit]](https://cdn.hackclub.com/019cb669-1476-7b31-ac61-798432102fd9/20260303-0504-04.1961304.gif)
 
 Run it again. Now current drops to **~3mA** (milliamps), which is perfect. The LED glows safely, just like in real circuits. The resistor chokes down the current so your LED lives a long happy life.
 
@@ -269,7 +269,7 @@ If you look at the graph down below which shows voltage and current across the L
 
 Right-click **capacitor** → **Show in New Scope**. Close switch → voltage **spikes instantly to 5V**, current shows a sharp pulse then zero. Open switch → voltage **ramps down slowly** as capacitor discharges.
 
-![Capacitor charging and discharging in Falstad](https://cdn.hackclub.com/019cb66a-24d6-73bc-98b0-457aec42a02a/20260303-0506-43.6923366.gif)
+[![Capacitor charging and discharging in Falstad]](https://cdn.hackclub.com/019cb66a-24d6-73bc-98b0-457aec42a02a/20260303-0506-43.6923366.gif)
 
 Now experiment by changing the values of the **resistor** and **capacitor**. Click on each one and drag their sliders around. You'll notice something interesting: with **higher value resistors and capacitors**, the LED stays lit up much longer after you open the switch.
 
